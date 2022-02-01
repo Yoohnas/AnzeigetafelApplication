@@ -40,7 +40,6 @@ class SpielzeitTest {
 	public void testSpielzeit() {
 		//SpielzeitTest mySpielzeitTest = new SpielzeitTest();
 		assertNotNull(spielzeit);
-		//fail("Spielzeit constructor did not instantiate an object");
 	}
 
 	/**
@@ -51,7 +50,6 @@ class SpielzeitTest {
 	void testGetSpielzeit() {
 		assertEquals(0, spielzeit.getSpielzeit().get("Minuten"));
 		assertEquals(0, spielzeit.getSpielzeit().get("Sekunden"));
-		//fail("GetSpielzeit Minuten and Sekunden did not work");
 	}
 
 	/**
@@ -62,7 +60,6 @@ class SpielzeitTest {
 	void testSetSpielzeitMinuten() {
 		spielzeit.setSpielzeit(90, 0);
 		assertEquals(90, spielzeit.getSpielzeit().get("Minuten"));
-		//fail("SetSpielzeit for Minuten did not work");
 	}
 	
 	/**
@@ -73,7 +70,6 @@ class SpielzeitTest {
 	void testSetSpielzeitSekunden() {
 		spielzeit.setSpielzeit(0, 45);
 		assertEquals(45, spielzeit.getSpielzeit().get("Sekunden"));
-		//fail("SetSpielzeit for Sekunden did not work");
 	}
 
 	/**
@@ -92,8 +88,6 @@ class SpielzeitTest {
 		// Actual assertion.
 	
 		assertEquals(expectedOuput, outContent.toString());
-		
-		//fail("PrintSpielzeit did not work");
 	}
 
 }
