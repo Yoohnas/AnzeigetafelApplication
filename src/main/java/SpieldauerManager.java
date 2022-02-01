@@ -13,6 +13,12 @@ public class SpieldauerManager {
 	private Spielzeit aktuelleSpielzeit;
 	private int spieldauer;
 	
+	//Constructor with spieldauer of the game
+	public SpieldauerManager(int spieldauer) {
+		this.spieldauer = spieldauer;
+		aktuelleSpielzeit = new Spielzeit();
+	}
+	
 	/**
 	 * @return the spieldauer
 	 */
