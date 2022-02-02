@@ -62,5 +62,21 @@ public class AnzeigetafelController implements Subject{
 	public void someChange() {
 		notifyObservers();
 	}
+
+	public SpielstandsManager getSpielstand() {
+		return spielstand;
+	}
+
+	public void setSpielstand(SpielstandsManager spielstand) {
+		this.spielstand = spielstand;
+	}
+
+	public SpieldauerManager getSpieldauer() {
+		return spieldauer;
+	}
+
+	public void setSpieldauer(SpieldauerManager spieldauer) {
+		this.spieldauer = spieldauer;
+	}
 	
 }
