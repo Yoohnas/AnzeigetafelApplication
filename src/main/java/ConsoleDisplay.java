@@ -28,6 +28,7 @@ public class ConsoleDisplay implements UI, Observer {
 
 	@Override
 	public void display() {
+		System.out.println("***ConsoleDisplay***");
 		System.out.println("Heim: "+toreHeim);
 		System.out.println("Gast: "+toreGast);
 		aktuelleSpielzeit.printSpielzeit();

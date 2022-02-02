@@ -40,6 +40,6 @@ public class Spielzeit {
 	
 	public void printSpielzeit() { 
 		
-		System.out.print("Spielzeit: "+spielzeit.get("Minuten")+" Minuten : "+spielzeit.get("Sekunden")+" Sekunden");
+		System.out.println("Spielzeit: "+spielzeit.get("Minuten")+" Minuten : "+spielzeit.get("Sekunden")+" Sekunden");
 	}
 	}

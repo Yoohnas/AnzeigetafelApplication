@@ -9,6 +9,12 @@ package main.java;
  *
  */
 public class GUI implements UI, Observer{
+	private AnzeigetafelController anzeigetafelController;
+
+	public GUI(AnzeigetafelController anzeigetafelController) {
+		this.anzeigetafelController = anzeigetafelController;
+		anzeigetafelController.registerObserver(this);
+	}
 
 	@Override
 	public void display() {
