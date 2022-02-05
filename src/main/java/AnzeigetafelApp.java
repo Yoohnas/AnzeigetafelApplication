@@ -30,5 +30,6 @@ public class AnzeigetafelApp {
 	
 	public static void main(String[] args) {
 		//gibt es hier deinen einen while(running) Loop?
+		Stopwatch testStopwatch = new Stopwatch();
 	}
 }
